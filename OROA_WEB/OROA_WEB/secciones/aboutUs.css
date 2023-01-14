@@ -1,0 +1,153 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    color: #ffffff;
+}
+
+body{
+  background-color: #000000;
+}
+
+a{
+    height: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@font-face {
+    font-family: 'FuturaMedium';
+    src: url('/fonts/FuturaStdMedium.otf') format('truetype');
+  }
+@font-face {
+    font-family: 'FuturaBold';
+    src: url('/fonts/FuturaStdBold.otf') format('truetype');
+  }
+@font-face {
+    font-family: 'BebasKai';
+    src: url('/fonts/BebasKai.otf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'FuturaHeavy';
+    src: url('/fonts/FuturaStdHeavy.otf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'FuturaLight';
+    src: url(/fonts/FuturaStdLight.otf) format('truetype');
+  }
+  @font-face {
+    font-family: 'FuturaBook';
+    src: url(/fonts/FuturaStdBook.otf) format('truetype');
+  }
+  @font-face {
+    font-family: 'FuturaMediumOblique';
+    src: url(/fonts/FuturaStdMediumOblique.otf) format('truetype');
+  }
+    /*(Header)*/
+
+.header__isologo{
+    width: 30%;
+}
+
+
+section{
+    background-color: #000000;
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-size: cover;   
+    height: 170px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.header__{
+    display: flex;
+    padding-top: 2.5%;
+}
+
+.logo__{
+    display: block;
+    text-align: center;
+}
+
+
+
+.header__line{
+    padding-top: 2%;
+    width: 45%;
+    height: 1%;
+
+
+}
+
+.header__botonera{
+    font-family: 'FuturaMedium';
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    gap: 5%;
+    padding-top: 1.8%;
+    padding-left: 2%;
+    
+    
+    
+
+}
+.header__button{
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    
+    
+}
+
+.header__button:hover{
+  justify-content: space-between;
+  text-decoration: none;
+  color: #F48119;
+  list-style-type: none;
+  transition: 0.4s;
+}
+
+
+.header__logo{
+    text-align: center;
+    size: 504px;
+}
+.imagen_logo{
+    width: 50%;
+    padding-top: 7%;
+}
+.contenedorPrincipal{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #F48119;
+    width: auto;
+    height: auto;
+}
+.imagenGrande{
+    width: 50%;
+}
+.contenedor__sliderImagenes{
+    display: flex;
+    justify-content: center;
+}
+.slider__imagenes{
+    width: 10%;
+}
+.contenedorPrincipal__texto{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.tituloPrincipal{
+    margin-bottom: 5%;
+}
+.descripcionPrincipal{
+    margin-bottom: 5%;
+}
